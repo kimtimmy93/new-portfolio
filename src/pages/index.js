@@ -9,6 +9,7 @@ import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
+import pic8 from '../assets/images/pic08.jpg';
 import Scroll from '../components/Scroll';
 
 
@@ -111,7 +112,7 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a href="https://kimtimmy93.github.io/whackamole/" target="_blank" className="image fit">
+                <a href="https://kimtimmy93.github.io/whackamole/" rel="noopener noreferrer" target="_blank" className="image fit">
                   <img src={pic2} alt="" />
                 </a>
                 <header>
@@ -126,7 +127,7 @@ const IndexPage = () => (
               </article>
 
               <article className="item">
-                <a href="/#" target="_blank" className="image fit">
+                <a href="/#"  rel="noopener noreferrer" target="_" className="image fit">
                   <img src={pic3} alt="" />
                 </a>
                 <header>
@@ -142,7 +143,7 @@ const IndexPage = () => (
             <div className="col-4 col-12-mobile">
 
               <article className="item">
-                <a href="https://local-la.herokuapp.com/" target="_blank" className="image fit">
+                <a href="https://local-la.herokuapp.com/" rel="noopener noreferrer" target="_blank" className="image fit">
                   <img src={pic4} alt="" />
                 </a>
                 <header>
@@ -155,7 +156,7 @@ const IndexPage = () => (
               </article>
               <article className="item">
 
-                <a href="https://localhost0003.herokuapp.com/" target="_blank" className="image fit">
+                <a href="https://localhost0003.herokuapp.com/" rel="noopener noreferrer" target="_blank" className="image fit">
                   <img src={pic5} alt="" />
                 </a>
                 <header>
