@@ -22,9 +22,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-download-link": "^2.2.0",
     "react-helmet": "^5.2.1",
-    "react-router-dom": "^5.1.2",
     "react-scrollspy": "^3.4.2",
     "react-typography": "^0.16.19",
     "smoothscroll-polyfill": "^0.4.4",
@@ -38,8 +36,8 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "npm run clean && gatsby build",
-    "deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -48,7 +46,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kimtimmy93/portfolio.git"
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

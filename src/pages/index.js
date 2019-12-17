@@ -18,7 +18,7 @@ const sections = [
   { id: 'about', name: 'About Me', icon: 'fa-user' },
   { id: 'skills', name: 'Skills', icon: 'fa-superpowers' },
   { id: 'portfolio', name: 'Projects', icon: 'fa-code-fork'},
-  { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
+  { id: 'resume', name: 'Resume', icon: 'fa-envelope' },
 ];
 
 const IndexPage = () => (
@@ -94,6 +94,7 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2>Projects</h2>
+            <h4>Click images to view project</h4>
           </header>
 
           <p>
@@ -114,7 +115,7 @@ const IndexPage = () => (
                   <p>Web application based on the all-time classic arcade game of Whack-A-Mole built in JavaScript</p>
                   <h4>Technologies Used</h4>
                     <p>
-                    HTML5, CSS3, jQuery, JavaScript
+                    HTML5 | CSS3 | jQuery | JavaScript
                     </p>
                
                 </header>
@@ -129,7 +130,7 @@ const IndexPage = () => (
                   <p>Web application designed for musicians, artists, and producers to come together to create, connect, and collaborate on projects.</p>
                   <h4>Technologies Used</h4>
                     <p>
-                    HTML5, CSS3, Bootstrap, Node.js, Express.js, Embedded Javascript(EJS), MongoDB
+                    HTML5 | CSS3 | Bootstrap | Node.js | Express.js | Embedded Javascript(EJS) | MongoDB
                     </p>
                 </header>
               </article>
@@ -145,7 +146,7 @@ const IndexPage = () => (
                     <p>Full-stack application that provides users with information on current and upcoming local sporting events in the Los Angeles and surrounding areas. Implemented Flask authentication. Consumed SeatGeek API. Managed GitHub branches and merges
                     </p>
                   <h4>Technologies Used</h4>
-                  <p>React.js, CSS, Bootstrap, Flask, SQLite, PostgreSQL, and Flask-Login</p>
+                  <p>React.js | CSS | Bootstrap | Flask | SQLite | PostgreSQL | Flask-Login</p>
                 </header>
               </article>
               <article className="item">
@@ -159,7 +160,7 @@ const IndexPage = () => (
 
                     </p>
                   <h4>Technologies Used</h4>
-                  <p>React.js, Node.js, Express.js, MongoDB, Firebase</p>
+                  <p>React.js | Node.js | Express.js | MongoDB | Firebase</p>
                 </header>
               </article>
             </div>
@@ -188,12 +189,12 @@ const IndexPage = () => (
 
       
 
-      <section id="contact" className="five">
+      <section id="resume" className="five">
         <div className="container">
           <header>
-            <h2>Contact</h2>
+            <h2>Resume</h2>
           </header>
-          <a href={pdf} target="_blank">Click here for my resume</a>
+          <a href={pdf} target="_blank" rel="noopener noreferrer">Click here for my resume</a>
           {/* <p>
            
           </p> */}

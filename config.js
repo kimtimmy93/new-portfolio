@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Prologue', 
+  siteTitle: 'Timothy Kim', 
   manifestName: 'Prologue',
   manifestShortName: 'Landing', 
   manifestStartUrl: '/',
@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/images/portfolio-img.png',
-  pathPrefix: `/gatsby-starter-prologue/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `/new-portfolio`, // This path is subpath of your hosting https://domain/portfolio
   authorName: 'Timothy Kim',
   heading: 'Software Developer',
   // social
