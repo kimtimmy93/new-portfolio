@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
@@ -9,8 +8,9 @@ import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
-import pic8 from '../assets/images/pic08.jpg';
+
 import Scroll from '../components/Scroll';
+import pdf from '../pages/TimothyKimResume.pdf'
 
 
 const sections = [
@@ -34,7 +34,7 @@ const IndexPage = () => (
               <br />
               Software Developer
             </h2>
-            <p>I have made few things check it out.</p>
+            <p>Check out my work!</p>
           </header>
 
           <footer>
@@ -54,17 +54,11 @@ const IndexPage = () => (
           </header>
 
           <a href="/#" className="image featured">
-            <img src={pic8} alt="" />
+            {/* <img src={pic8} alt="" /> */}
           </a>
 
           <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
+          I am a software engineer experienced with strong analytical and problem solving skills coming from the legal industry. I have experience in providing clients with tailored solutions, paying close attention to their specific needs in order to provide a deliverable service. As a developer, I strive to seek innovative and robust solutions that will enhance the user experience, and I am most motivated when surrounded by individuals who encourage me to develop new skills, and have a strong willingness to keep learning.
           </p>
         </div>
       </section>
@@ -151,7 +145,7 @@ const IndexPage = () => (
                     <p>Full-stack application that provides users with information on current and upcoming local sporting events in the Los Angeles and surrounding areas. Implemented Flask authentication. Consumed SeatGeek API. Managed GitHub branches and merges
                     </p>
                   <h4>Technologies Used</h4>
-                  <p>Technologies used: React.js, CSS, Bootstrap, Flask, SQLite, PostgreSQL, and Flask-Login</p>
+                  <p>React.js, CSS, Bootstrap, Flask, SQLite, PostgreSQL, and Flask-Login</p>
                 </header>
               </article>
               <article className="item">
@@ -197,8 +191,9 @@ const IndexPage = () => (
       <section id="contact" className="five">
         <div className="container">
           <header>
-            <h2>Contact hi</h2>
+            <h2>Contact</h2>
           </header>
+          <a href={pdf} target="_blank">Click here for my resume</a>
           {/* <p>
            
           </p> */}
