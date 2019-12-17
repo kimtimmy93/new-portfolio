@@ -1,7 +1,7 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Prologue', // <title>
+  siteTitle: 'Gatsby Starter Prologue', 
   manifestName: 'Prologue',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestShortName: 'Landing', 
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
