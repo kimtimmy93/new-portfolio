@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Prologue', 
+  siteTitle: 'Timothy Kim', 
   manifestName: 'Prologue',
   manifestShortName: 'Landing', 
   manifestStartUrl: '/',
