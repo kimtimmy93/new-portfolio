@@ -98,7 +98,7 @@ const IndexPage = () => {
         <div className="container">
           <header>
             <h2>Projects</h2>
-            <h4>Click images to view project</h4>
+            <h4>Click image to view project</h4>
           </header>
 
           <p>
