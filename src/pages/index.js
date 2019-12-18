@@ -4,6 +4,8 @@ import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import SideBar from '../components/SideBar';
 
+
+
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import pic4 from '../assets/images/pic04.jpg';
@@ -18,10 +20,12 @@ const sections = [
   { id: 'about', name: 'About Me', icon: 'fa-user' },
   { id: 'skills', name: 'Skills', icon: 'fa-superpowers' },
   { id: 'portfolio', name: 'Projects', icon: 'fa-code-fork'},
-  { id: 'resume', name: 'Resume', icon: 'fa-envelope' },
+  { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
 ];
 
-const IndexPage = () => (
+const IndexPage = () => {
+  console.log(SideBar)
+  return (
   <Layout>
     <SideBar sections={sections} />
 
@@ -189,10 +193,13 @@ const IndexPage = () => (
 
       
 
-      <section id="resume" className="five">
+      <section id="contact" className="five">
         <div className="container">
           <header>
-            <h2>Resume</h2>
+            <h2>Contact Me</h2>
+            <h4>timhkim0623@gmail.com</h4>
+            <h4>818.398.6396</h4>
+            <h4>Los Angeles, CA</h4>
           </header>
           <a href={pdf} target="_blank" rel="noopener noreferrer">Click here for my resume</a>
           {/* <p>
@@ -220,6 +227,6 @@ const IndexPage = () => (
 
     <PageFooter />
   </Layout>
-);
+)}
 
 export default IndexPage;
