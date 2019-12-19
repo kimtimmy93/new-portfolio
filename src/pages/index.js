@@ -126,7 +126,7 @@ const IndexPage = () => {
               </article>
 
               <article className="item">
-                <a href="/https://mixr-1.herokuapp.com/"  rel="noopener noreferrer" target="_" className="image fit">
+                <a href="https://mixr-1.herokuapp.com/"  rel="noopener noreferrer" target="_" className="image fit">
                   <img src={pic3} alt="" />
                 </a>
                 <header>
