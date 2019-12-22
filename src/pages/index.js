@@ -147,7 +147,7 @@ const IndexPage = () => {
                 </a>
                 <header>
                   <h3>LOCALA</h3>
-                    <p>Full-stack application that provides users with information on current and upcoming local sporting events in the Los Angeles and surrounding areas. Implemented Flask authentication. Consumed SeatGeek API. Managed GitHub branches and merges
+                    <p>Full-stack application that provides users with information on current and upcoming local sporting events in the Los Angeles and surrounding areas. Implemented Flask authentication. Consumed SeatGeek API. Managed GitHub branches and merges.
                     </p>
                   <h4>Technologies Used</h4>
                   <p>React.js | CSS | Bootstrap | Flask | SQLite | PostgreSQL | Flask-Login</p>
@@ -160,7 +160,7 @@ const IndexPage = () => {
                 </a>
                 <header>
                   <h3>LOCAL:HOST</h3>
-                  <p>Local:Host is a full-stack MERN application created for individuals looking for homestay accommodations abroad, and for hospitable hosts who are passionate about assimilating foreigners to their local culture. Implemented Firebase authentication and storage
+                  <p>Local:Host is a full-stack MERN application created for individuals looking for homestay accommodations abroad, and for hospitable hosts who are passionate about assimilating foreigners to their local culture. Implemented Firebase authentication and storage.
 
                     </p>
                   <h4>Technologies Used</h4>
